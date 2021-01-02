@@ -7,11 +7,12 @@ const InputList = ({ onInputChange, onButtonSubmit }) => {
       <Container>
         <Flex>
           <Input
-            isRequired
+            
             focusBorderColor="lime"
             placeholder="Write in todo"
             onChange = {onInputChange}
             id = "input"
+            isRequired
           />
           <Button 
           ml="2" 
